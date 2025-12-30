@@ -17,9 +17,9 @@ import java.net.URISyntaxException
 
 
 class RateHandler(private val themeViewModel: ThemeViewModel) {
-    val CMCAPIKEY = "10f975fb64354df3833df6974e78e18d"
-    val BLOCKCHAIR_API_KEY = "A___9wkSskHm2VukouOlFRRxjA8dbsjb"
-    val EXCHANGERATE_API_KEY = "4c76cc41b8acd14bcff78265"
+    val CMCAPIKEY = ""
+    val BLOCKCHAIR_API_KEY = ""
+    val EXCHANGERATE_API_KEY = ""
 
     
     suspend fun fetchMarketRate(symbol: String = "BTC", currency: String = "AUD"): Double? {
